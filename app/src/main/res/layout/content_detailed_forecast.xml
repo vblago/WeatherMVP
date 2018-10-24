@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ltd.vblago.kharkivweather.detailed.DetailedForecastActivity"
+    tools:showIn="@layout/activity_detailed_forecast">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        tools:background="@color/colorAccent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/icon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/date"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/feeling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/temperature"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/feeling"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/sunrise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/pressure"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/sunset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/sunrise"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/moonrise"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/sunset"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/moonset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="Date"
+        app:layout_constraintTop_toBottomOf="@+id/moonrise"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

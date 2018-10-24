@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Kharkiv Weather</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detailed_forecast">DetailedForecastActivity</string>
+
+    <string name="pattern_date">Date: %s</string>
+    <string name="pattern_description">Description: %s</string>
+    <string name="pattern_temperature">Temperature: %d</string>
+    <string name="pattern_feeling">Feeling: %d</string>
+    <string name="pattern_pressure">Pressure: %d</string>
+    <string name="pattern_sunrise">Sunrise: %s</string>
+    <string name="pattern_sunset">Sunset: %s</string>
+    <string name="pattern_moonrise">Moonrise: %s</string>
+    <string name="pattern_moonset">Moonset: %s</string>
+</resources>
